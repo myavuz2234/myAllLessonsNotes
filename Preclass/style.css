@@ -1,0 +1,108 @@
+#div-static{
+    width: 300px;
+    height: 170px;
+    background-color: #c30;
+    border: 5px solid #000;
+    color: #fff;
+    font: bold 20px tahoma;
+    text-align: center;
+    padding: 130px 0 0 0;
+    position: static;
+    margin: 50px 0 0 30px;
+}
+#div-relative{
+    width: 300px;
+    height: 170px;
+    background-color: green;
+    border: 5px solid #000;
+    color: #fff;
+    font: bold 20px tahoma;
+    text-align: center;
+    padding: 130px 0 0 0;
+    position: relative;
+    top: 50px; 
+    left: 40px;
+}
+#div-absolute{
+    width: 300px;
+    height: 170px;
+    background-color: blue;
+    border: 5px solid #000;
+    color: #fff;
+    font: bold 20px tahoma;
+    text-align: center;
+    padding: 130px 0 0 0;
+    position: absolute;
+    top: 1500px; 
+    left: 550px;   
+}
+#div-fixed{
+    width: 300px;
+    height: 170px;
+    background-color: bisque;
+    border: 5px solid #000;
+    color: #000;
+    font: bold 20px tahoma;
+    text-align: center;
+    padding: 130px 0 0 0;
+    position: fixed;
+    top: 400px; 
+    left: 400px;   
+}
+
+#kutu-1{
+    width: 300px;
+    height: 170px;
+    background-color: #c30;
+    border: 5px solid #000;
+    color: #fff;
+    font: bold 20px tahoma;
+    text-align: center;
+    padding: 130px 0 0 0;
+    float: right;
+    margin: 0 0 0 20px;
+}
+#kutu-2{
+    width: 300px;
+    height: 170px;
+    background-color: greenyellow;
+    border: 5px solid #000;
+    font: bold 20px tahoma;
+    text-align: center;
+    padding: 130px 0 0 0;
+    float: right;    
+}
+#kutu-3{
+    width: 300px;
+    height: 170px;
+    background-color: blue;
+    border: 5px solid #000;
+    color: #fff;
+    font: bold 20px tahoma;
+    text-align: center;
+    padding: 130px 0 0 0;
+    float: left;  
+}
+#div-main{
+    width: 640px;
+    height: 620px;
+    margin: 30px auto;       
+}
+ #id-tablo{
+    width: 1000px;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+ }
+ #div-tablo{
+    position: relative;
+    left: 900px;
+    top: 100px;
+ }
+ #button-div{
+    /* background-color: red; */
+    width: 25%;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 15px;
+}
