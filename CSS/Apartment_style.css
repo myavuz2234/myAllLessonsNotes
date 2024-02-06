@@ -1,0 +1,106 @@
+#Apartment{
+    width: 350px;
+    height: auto;
+    margin: 70px auto;
+
+}
+#chimney{
+    width: 25px;
+    height: 50px;
+    background: #960;
+    margin-left: 250px;
+}
+#roof{
+    width: 250px;
+    height: 250px;
+    background: #930;
+    transform: rotate(45deg);
+    margin-left: 50px;
+    margin-top: -50px;
+    position: relative;
+}
+#apartment_body{
+    width: 330px;
+    height: 470px;
+    background: #0cf;
+    margin-top: -125px;
+    position: relative;
+    z-index: 2;
+    padding: 30px 0 0 20px;
+}
+.window_one{
+    width: 58px;
+    height: 58px;
+    background: #ff9;
+    border: 1px solid #000;
+    float: left;
+    margin-bottom: 65px;
+}
+.window_two{
+    width: 58px;
+    height: 58px;
+    background: #ff9;
+    border: 1px solid #000;
+    float: left;
+    margin: 0 0 65px  65px;
+}
+.window_three{
+    width: 58px;
+    height: 58px;
+    background: #ff9;
+    border: 1px solid #000;
+    float: left;
+    margin: 0 0 65px  65px;
+}
+.curtain_left{
+    width: 23px;
+    height: 56px;
+    background: #fff;
+    border-radius: 0 0 20px 0 ;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    float: left;
+}
+.curtain_right{
+    width: 23px;
+    height: 56px;
+    background: #fff;
+    border-radius: 0 0 0 20px  ;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    float: left;
+    margin-left: 10px;
+}
+#enter{
+    width: 90px;
+    height: 152px;
+    float: left;
+    margin-left: 50px;
+    margin-top: -56px;
+    margin-right: 50px;
+}
+#table{
+    width: 88px;
+    height: 21px;
+    background: #fff;
+    border: 1px solid #000;
+    font: bold 10px tahoma;
+    text-align: center;
+    padding-top: 4px;
+}
+#door{
+    width: 86px;
+    height: 118px;
+    background: #330;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    margin-top: 5px ;
+}
+#door_handle{
+    width: 15px;
+    height: 3px;
+    margin: 50px 0 0 15px;
+    background: #000;
+
+}
