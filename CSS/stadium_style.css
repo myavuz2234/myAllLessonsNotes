@@ -1,0 +1,96 @@
+#stadium{
+    width: 700px;
+    height: 865px;
+    margin: 50px auto;
+    border-left: 120px solid #ddd;
+    border-right: 120px solid #ddd;
+    border-top: 120px solid #ddd;
+    border-bottom: 120px solid #54f55c;
+    border-radius: 200px;
+    background-color: #54f55c;
+}
+#tribune{
+    width: 700px;   
+    height: 865px;
+    background-color: #54f55c;
+    border-radius: 150px 150px 0 0 ;
+}
+#sidelines{
+    width: 550px;
+    height: 670px;
+    background: #360;
+    margin: 100px auto;
+    border-radius: 100px;
+    padding: 70px 0 0 0;
+}
+#field{
+    width: 400;
+    height: 600px;
+    background: #0c0;
+    margin: auto;
+    border: 1px solid white;
+}
+#penalty_area_top{
+    width:250px;
+    height: 100px;
+    margin: auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+#penalty_area_in_top{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+#yay_top{
+    width: 100px;
+    height: 40px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: auto;
+    border-radius: 0 0 55px 55px;
+}
+#middle{
+    width: 548px;
+    height: 1px;
+    background: white;
+    margin-top: 150px;
+}
+#middle_circle{
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin-top: -60px;
+    margin-left: 220px;
+}
+#yay_bottom{
+    width: 100px;
+    height: 40px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    margin: 98px auto 0 auto;
+    border-radius: 55px 55px 0 0;
+}
+#penalty_area_bottom{
+    width:250px;
+    height: 100px;
+    margin: 0 auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
+#penalty_area_in_bottom{
+    width: 120px;
+    height: 50px;
+    margin: 48px auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
