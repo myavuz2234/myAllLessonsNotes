@@ -1,0 +1,194 @@
+#bus{
+    width: 404px;
+    height: 600px;
+    margin: 150px;
+}
+#antenna{
+    width: 2px;
+    height: 100px;
+    background-color: black;
+    border: 1px solid black;
+    margin: 100px auto 0 auto;
+    transform: rotate(15deg);    
+}
+#mirror_left{
+    width: 39px;
+    height: 25px;
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-bottom:1px solid black;
+    border-radius: 10px 0 0 10px;
+    background-color: #c9f;
+    margin-top: 192px;
+    float: left;
+}
+#window{
+    width: 318px;
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 15px 15px 0 0;
+    margin-top: -3px;
+    float: left;
+}
+#mirror_right{
+    width: 39px;
+    height: 25px;
+    border-top:1px solid black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    border-radius: 0 10px 10px 0;
+    background-color: #c9f;
+    margin-top: 192px;
+    float: left;
+}
+#fairing{
+    width: 318px;
+    height: 120px;
+    border-left: ;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    border-radius: 0 0 10px 10px ;
+    float: left;
+    margin-left: 41px;
+    background-color: #c9f;
+}
+#tire_left{
+    width: 50px;
+    height: 40px;
+    background-color: black;
+    border-radius: 0 0 10px 10px;
+    float: left;
+    margin-left: 80px;
+}
+#tire_right{
+    width: 50px;
+    height: 40px;
+    background-color: black;
+    border-radius: 0 0 10px 10px;
+    float: left;
+    margin-left: 140px;
+}
+#rearview_mirror{
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #ccc;
+    border: 1px solid black;
+    margin:30px auto 0 auto ;
+}
+#seat_left{
+    width: 120px;
+    height: 120px;
+    background-color: #90f;
+    border-radius: 10px 10px 0 0;
+    margin: 58px 0 0 20px;
+    float: left;
+}
+#seat_right{
+    width: 120px;
+    height: 120px;
+    background-color: #90f;
+    border-radius: 10px 10px 0 0;
+    margin: 58px 0 0 37px;
+    float: left;
+}
+#wiper_left{
+    width: 110px;
+    height: 3px;
+    background-color: black;
+    margin: 115px 0 0 20px;
+}
+#wiper_right{
+    width: 110px;
+    height: 3px;
+    background-color: black;
+    margin: 115px 0 0 -10px;
+
+}
+#steering{
+    width: 60px;
+    height: 60px;
+    border-top: 8px solid black ;
+    border-left: 8px solid black;
+    border-right: 8px solid black;
+    border-radius:60px 60px 60px 0;
+    margin: 90px 0 0 20px;
+    float: left;
+}
+#light_left{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ff9;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 15px #f7d3ac;
+    box-shadow: -5px -5px 15px #f7d3ac;
+    float: left;
+}
+#main{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 10px 0 0 12px;
+}
+#light_right{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ff9;
+    margin-top: 30px;
+    margin-left: 12px;
+    box-shadow: 5px 5px 15px #f7d3ac;
+    box-shadow: -5px -5px 15px #f7d3ac;
+    float: left;
+}
+#line_1{
+    width: 70px;
+    height: 3px;
+    background-color: #444;
+    margin: 25px auto 0 auto;
+}
+#line_2{
+    width: 80px;
+    height: 3px;
+    background-color: #444;
+    margin: 5px auto 0 auto;
+}#line_3{
+    width: 90px;
+    height: 3px;
+    background-color: #444;
+    margin: 5px auto 0 auto;
+}
+#line_4{
+    width: 100px;
+    height: 3px;
+    background-color: #444;
+    margin: 5px auto 0 auto;
+}
+#plate{
+    width: 120px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 25px auto 0 auto;
+}
+#tr{
+    width: 15px;
+    height: 15px;
+    background-color: #06f;
+    float: left;
+    font: 10px tahoma ;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0 0 0;
+}
+#plate_text{
+    width: 105px;
+    height: 20px;
+    float: left;
+    font: bold 14px tahoma ;
+    text-align: center;
+    float: left;
+}
