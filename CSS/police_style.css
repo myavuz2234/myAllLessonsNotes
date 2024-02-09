@@ -1,62 +1,77 @@
 main{
     width: 600px;
-    height: 300px;
+    height: 285px;
     border: 1px solid black;
     margin: 30px auto 0 auto;
 }
 #signal_main{
     width: 60px;
-    height: 20px;
-    margin: 20px auto 0 auto;
+    height: 30px;
+    margin: 100px auto 0 auto ;
 }
 #signal_left{
     width: 30px;
-    height: 20px;
+    height: 30px;
     background-color: blue;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 0 0 0;
     float: left;
 }
 #signal_right{
     width: 30px;
-    height: 20px;
+    height: 30px;
     background-color: red;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0 10px 0 0;
     float: left;
 }
 #window_main{
-    width: 310px;
-    height: 50px;
-    margin: 0 auto 0 auto;
+    width: 404px;
+    height: 82px;
+    margin: 0 auto ;
 }
 #window_left{
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 80px;
     background-color: bisque;
-    border-radius: 30px 0 0 0;
-    border: 1px solid burlywood; 
+    border-radius: 70px 0 0 0;
+    border-left: 1px solid burlywood; 
+    border-top: 1px solid burlywood; 
+    border-right: 1px solid burlywood; 
     float: left; 
 }
 #window_right{
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 80px;
     background-color: bisque;
-    border-radius: 0 30px 0 0;
-    border: 1px solid burlywood; 
-    float: left;    
+    border-radius: 0 70px  0 0;
+    border-left: 1px solid burlywood; 
+    border-top: 1px solid burlywood; 
+    border-right: 1px solid burlywood; 
+    float: left; 
 }
-#front{
+#back{
     width: 30px;
     height: 100px;
     margin-left: 20px;
+    float: left;
 }
 #light{
-    width: 3px;
-    height: 30px;
-    background-color: black;
-    margin-left: 27px;
+    width: 6px;
+    height: 60px;
+    background-color: #900;
+    margin: 6px 0  0 19px;
 }
 #iron{
-    width: 30px;
-    height: 5px;
+    width: 25px;
+    height: 10px;
     background-color: black;
+    border-radius: 30px;
+    margin: 10px 0 0 10px;
+}
+#door_left{
+    width: 273px;
+    height: 100px; 
+    float: left;
+    background-color: #03f;
+    border-radius:  30px 0 0 30px;
+
 }

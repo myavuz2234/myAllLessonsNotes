@@ -49,6 +49,7 @@ button_girls.onclick = function() {
     odd_rows[1].style.backgroundColor ="white";
     odd_rows[2].style.backgroundColor ="white";
     //////////////////////////////
+    alert{}
     button_girls.style.visibility = "hidden";
     button_boys.style.visibility = "visible";
     /////////////////////////////
@@ -71,5 +72,6 @@ button_girls.onclick = function() {
     book[2].innerHTML = "";
     book[3].innerHTML = "";
     book[4].innerHTML = "";
+   
 }
 
