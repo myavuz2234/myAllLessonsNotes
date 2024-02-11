@@ -1,0 +1,99 @@
+main{
+    width: 740px;
+    height: auto;
+    margin: 30px auto;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    float: left;    
+}
+#banner{
+    width: 630px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: blue;
+    margin-bottom: 10px;
+    float: left;
+}
+#menü{
+    width: 580px;
+    height: 47px;
+    background-color: blueviolet;
+    margin-right: 10px;
+    float: left;
+}
+#social{
+    width: 150px;
+    height: 47px;
+    float: left;
+}
+#big{
+    width: 740px;
+    height: 350px;
+    background-color: burlywood;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#middle_1{
+    width: 240px;
+    height: 240px;
+    float: left;
+    background-color: cadetblue;
+    
+}
+#middle_2{
+    width: 240px;
+    height: 240px;
+    float: left;
+    background-color: rgb(55, 111, 113);
+    margin-left: 10px;
+    margin-right: 10px;
+    /* background: url(images/bjk.jpg); */
+}
+#middle_3{
+    width: 240px;
+    height: 240px;
+    float: left;
+    background-color: rgb(12, 58, 59);
+}
+#bottom{
+    width: 740px;
+    height: 90px;
+    float: left;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+img{
+    width: 46px;
+    height: 46px;
+}
+#images_logo{
+    width: 100px;
+    height: 100px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    float: left;
+}
+.li_a{
+    display: block;
+    width: 145px;
+    height: 32px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font: bold 15px tahoma;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: turquoise ;
+}

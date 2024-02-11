@@ -1,0 +1,131 @@
+main{
+    width: 460px;
+    height: auto;
+    margin: 50px auto;
+}
+#alem{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #999;
+}
+#alem_inner{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    /* margin: -22px auto 0 auto; */
+    margin-top: -23px;
+    margin-left: 225px;
+    background-color: white;
+}
+#alem_leg{
+    width: 2px;
+    height: 10px;
+    margin: 0 auto;
+    background-color: #999;
+}
+#dome{
+    width: 390px;
+    height: 390px;
+    background-color: #ccc;
+    border-radius: 195px;
+    margin-left: 35px;
+}
+#dome_top{
+    width: 410px;
+    height: 70px;
+    background-color: #eee;
+    margin: -260px auto 0 auto;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+#windows{
+    width: 30px;
+    height: 40px;
+    background-color: white;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    float: left;
+    margin-top: 29px;
+    margin-left: 80px;
+}
+#dome_bottom{
+    width: 440px;
+    height: 100px;
+    background-color: #2a85b2;
+    margin: 0 auto;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+#arch_autside{
+    width: 200px;
+    height: 180px;
+    border-radius: 100px;   
+    background-color: #ccc;
+    margin: 25px auto;
+    padding-top: 20px;
+}
+#arch_inner{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;   
+    background-color: #2a85b2;
+    margin: 0 auto;
+}
+#enter_main{
+    width: 440px;
+    height: 320px;
+    background-color: #ccc;
+    margin: 0 auto;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    padding-top: 20px;
+}
+#enter_bottom{
+    width: 458px;
+    height: 50px;
+    background-color: #eee;
+    border: 1px solid #999;    
+}
+#inner_main{
+    width: 340px;
+    height: 310px;
+    background-color: #ddd;
+    margin: 0 auto;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    padding-top: 10px;
+    border-radius: 5px 5px 0 0;
+}
+#inner_blue{
+    width: 320px;
+    height: 250px;
+    background-color: #2a85b2;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+#door_top{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: #aaa;
+    margin: 0 auto;
+    border: 1px solid #999;
+}
+#door{
+    width: 120px ;
+    height: 200px;
+    background-color: #ccc;
+    margin: -60px auto 0 auto;
+}
+#door_line{
+    width: 1px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #999;
+}
