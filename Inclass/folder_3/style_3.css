@@ -1,0 +1,11 @@
+#main_container{
+    text-align: left;
+    color: bisque; 
+    background-color: cadetblue;
+    padding: 50px;
+    /* display: flex;
+   height: min-content; */
+   /* flex-direction: column; */
+   display: grid;
+   grid-template-columns: 33% 33% 33%;
+}

@@ -165,7 +165,7 @@ li_2{
 
 
 #menü_5{
-    width: 610px;
+    width: 660px;
     height: 150px;
     margin-top: 50px;
 }
@@ -202,3 +202,55 @@ li_2{
 #menü_5 ul li:hover ul{
     display: block;    
 } 
+
+#menü_6{
+    width: 750px;
+    height: 30px;
+    margin-top: 30px;
+    border-bottom: 1px solid;
+}
+#menü_6 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#menü_6 ul li{
+    float: left;
+}
+#menü_6 ul li a{
+    display: block;
+    width: 110px;
+    height: 14px;
+    text-decoration: none;
+    color:  black;
+    font: bold 12px tahoma;
+    text-align: center;
+    padding: 10px 3px 7px  3px ;
+    background: url(images/sekme.jpg);
+}
+#menü_6 ul li a:hover{
+    color: #89d83f;
+}
+
+#menü_7{
+    width: 688px;
+    height: 60px;
+    margin-top: 30px;
+}
+#menü_ ul{
+    margin: 0;
+    padding: 0;   
+}
+#menü_7 ul li{
+    float: left;
+    list-style: none;
+}
+#menü_7 ul li a{
+    display: block;
+    width: 98px;
+    height: 60px;
+    text-indent: -2000px;
+    background: url(images/menü.jpg);
+}
+#anasayfa a{   background-position: 0 0; }
+#hakkümüzda a{ background-position: -130px 0;}
