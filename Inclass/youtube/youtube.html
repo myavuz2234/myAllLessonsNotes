@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="youtube_style.css">
+</head>
+<body>
+    <div id="headline">
+        <div id="headline_left">
+            
+                <svg id="headline_left_svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" id="simge2"/>
+                </svg>           
+          
+                <img id="headline_left_images" src="images/YouTube_logo.jpg" alt="">
+             
+        </div>
+
+        <div id="div_middle">
+            <div id="div_middle_left">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
+            </div>
+    
+            <!-- <div id="div_middle_middle"> -->
+                <input type="text" placeholder="Search" id="middle_input">
+            <!-- </div> -->
+    
+            <div id="div_middle_right">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
+            </div>
+        </div>
+    
+
+        <div id="headline_right">
+            <div id="camera">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-camera-reels" viewBox="0 0 16 16">
+                    <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0"/>
+                    <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1"/>
+                    <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                  </svg>
+            </div>
+            <div id="bell">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+                  </svg>
+            </div>
+            <div id="letter">
+               <h1>M</h1>
+            </div>
+        </div>
+    </div>
+
+    <main id="main_body">
+        <div id="main_body_left">
+
+            <div id="anasayfa">
+                <div class="inner" style="background-color: #bbb; border-radius: 15px;">
+                    <div class="icon" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                            <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Anasayfa</div>
+                </div>
+                <div class="inner">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-dpad" viewBox="0 0 16 16">
+                            <path d="m7.788 2.34-.799 1.278A.25.25 0 0 0 7.201 4h1.598a.25.25 0 0 0 .212-.382l-.799-1.279a.25.25 0 0 0-.424 0Zm0 11.32-.799-1.277A.25.25 0 0 1 7.201 12h1.598a.25.25 0 0 1 .212.383l-.799 1.278a.25.25 0 0 1-.424 0ZM3.617 9.01 2.34 8.213a.25.25 0 0 1 0-.424l1.278-.799A.25.25 0 0 1 4 7.201V8.8a.25.25 0 0 1-.383.212Zm10.043-.798-1.277.799A.25.25 0 0 1 12 8.799V7.2a.25.25 0 0 1 .383-.212l1.278.799a.25.25 0 0 1 0 .424Z"/>
+                            <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v3a.5.5 0 0 1-.5.5h-3A1.5 1.5 0 0 0 0 6.5v3A1.5 1.5 0 0 0 1.5 11h3a.5.5 0 0 1 .5.5v3A1.5 1.5 0 0 0 6.5 16h3a1.5 1.5 0 0 0 1.5-1.5v-3a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 0 16 9.5v-3A1.5 1.5 0 0 0 14.5 5h-3a.5.5 0 0 1-.5-.5v-3A1.5 1.5 0 0 0 9.5 0zM6 1.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3A1.5 1.5 0 0 0 11.5 6h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a1.5 1.5 0 0 0-1.5 1.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-3A1.5 1.5 0 0 0 4.5 10h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 0 6 4.5z"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Shorts</div>
+                </div>
+                <div class="inner" style="border-bottom: 1px solid #b2b2b2;">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-collection-play" viewBox="0 0 16 16">
+                            <path d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3m2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1m2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848z"/>
+                            <path d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5z"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Abonelikler</div>
+                </div>
+               
+            </div>
+            <div id="siz">
+                <div class="inner1">
+                    <div class="icon" 
+                    style=" font-family: Arial, Helvetica, sans-serif;
+                    display: flex;
+                    align-items: center;">
+                      Siz >
+                    </div>
+                    <div class="tex"></div>
+                </div>
+                <div class="inner1" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-person-add" viewBox="0 0 16 16">
+                            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+                            <path d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Kanalımız</div>
+                </div>
+                <div class="inner1" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock-history" viewBox="0 0 16 16">
+                            <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022zm2.004.45a7 7 0 0 0-.985-.299l.219-.976q.576.129 1.126.342zm1.37.71a7 7 0 0 0-.439-.27l.493-.87a8 8 0 0 1 .979.654l-.615.789a7 7 0 0 0-.418-.302zm1.834 1.79a7 7 0 0 0-.653-.796l.724-.69q.406.429.747.91zm.744 1.352a7 7 0 0 0-.214-.468l.893-.45a8 8 0 0 1 .45 1.088l-.95.313a7 7 0 0 0-.179-.483m.53 2.507a7 7 0 0 0-.1-1.025l.985-.17q.1.58.116 1.17zm-.131 1.538q.05-.254.081-.51l.993.123a8 8 0 0 1-.23 1.155l-.964-.267q.069-.247.12-.501m-.952 2.379q.276-.436.486-.908l.914.405q-.24.54-.555 1.038zm-.964 1.205q.183-.183.35-.378l.758.653a8 8 0 0 1-.401.432z"/>
+                            <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0z"/>
+                            <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Geçmiş</div>
+                </div>
+                <div class="inner1" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Videolarımız</div>
+                </div>
+                <div class="inner1" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner1" style="border-bottom: 1px solid #b2b2b2;">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                    </div>
+                    <div class="tex">Daha fazlazını göster</div>
+                </div>
+                
+                
+            </div>
+            <div id="abonelikler">
+                <div class="inner2">
+                    <div class="icon" 
+                    style=" font-family: Arial, Helvetica, sans-serif;
+                    display: flex;
+                    align-items: center;">
+                      Abonelik
+                    </div>
+                    <div class="tex"></div>
+                </div>
+                <div class="inner2" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-person-add" viewBox="0 0 16 16">
+                            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+                            <path d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Kanalımız</div>
+                </div>
+                <div class="inner2" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock-history" viewBox="0 0 16 16">
+                            <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022zm2.004.45a7 7 0 0 0-.985-.299l.219-.976q.576.129 1.126.342zm1.37.71a7 7 0 0 0-.439-.27l.493-.87a8 8 0 0 1 .979.654l-.615.789a7 7 0 0 0-.418-.302zm1.834 1.79a7 7 0 0 0-.653-.796l.724-.69q.406.429.747.91zm.744 1.352a7 7 0 0 0-.214-.468l.893-.45a8 8 0 0 1 .45 1.088l-.95.313a7 7 0 0 0-.179-.483m.53 2.507a7 7 0 0 0-.1-1.025l.985-.17q.1.58.116 1.17zm-.131 1.538q.05-.254.081-.51l.993.123a8 8 0 0 1-.23 1.155l-.964-.267q.069-.247.12-.501m-.952 2.379q.276-.436.486-.908l.914.405q-.24.54-.555 1.038zm-.964 1.205q.183-.183.35-.378l.758.653a8 8 0 0 1-.401.432z"/>
+                            <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0z"/>
+                            <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Geçmiş</div>
+                </div>
+                <div class="inner2" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Videolarımız</div>
+                </div>
+                <div class="inner2" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner2" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner2" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner2" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner2" style="border-bottom: 1px solid #b2b2b2;">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                    </div>
+                    <div class="tex">Daha fazlazını göster</div>
+                </div>
+                
+            </div>
+            <div id="kesfet">
+                <div class="inner3">
+                    <div class="icon" 
+                    style=" font-family: Arial, Helvetica, sans-serif;
+                    display: flex;
+                    align-items: center;">
+                      Kesfet
+                    </div>
+                    <div class="tex"></div>
+                </div>
+                <div class="inner3" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner3" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner3" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner3" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner3" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner3" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner3" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner3" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner3" >
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          </svg>
+                    </div>
+                    <div class="tex">Daha sonra izle</div>
+                </div>
+                <div class="inner3" style="border-bottom: 1px solid #b2b2b2;">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                    </div>
+                    <div class="tex">Daha fazlazını göster</div>
+                </div>
+            </div>
+
+
+        </div>
+        
+        <div id="main_body_inner">  
+            <div id="tag">
+                <div id="tag_inner">
+                    <div class="tag_enter" style="background-color: black; color: white;">Tümü</div>
+                    <div class="tag_enter">Canli</div>
+                    <div class="tag_enter">Müzik</div>
+                    <div class="tag_enter">Oyun</div>
+                    <div class="tag_enter">Haberler</div>
+                    <div class="tag_enter">Mix'ler</div>
+                    <div class="tag_enter">Futbol</div>
+                    <!-- <div class="tag_enter">Aksiyon-Macera Oyunları</div> -->
+                    <div class="tag_enter">Doga</div>
+                    <div class="tag_enter">Matematik</div>
+                    <div class="tag_enter">Son Yüklenenler</div>
+                    <div class="tag_enter">İzlenenler</div>
+                    <div class="tag_enter">Yeni Önerilenler</div>
+                </div>
+            </div>
+
+            <div id="body_main">
+
+                <div id="case">
+                    <div id="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6isfZjOw7tI" title="Türkçe Pop Remix Şarkılar 💘 Türkçe Pop Hareketli Şarkılar Remix | En Çok Dinlenen Pop Müzik 2024 💫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div id="video_text">
+                        <div id="video_text_left">
+                            <div id="video_icon">
+                                <img src="images/unnamed.jpg" alt="">
+                            </div>
+                            <div id="video_space"></div>
+                        </div>
+                        <div id="video_text_right">
+                            <div id="baslık">
+                                <h3>Türkçe Pop Remix Şarkılar 💘 
+                                    Türkçe Pop Hareketli Şarkılar Remix  
+                                </h3>
+                            </div>
+                            <div id="isim">
+                                <p>Remix Şarkılar</p>
+                            </div>
+                            <div id="süre">
+                                <p>1M görüntüleme   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                                </svg> 3 hafta önce</p>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="case">
+                    <div id="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/D2vQMhsAvDY" title="TFF&#39;den İcardi&#39;ye derbi kıyağı! | Beşiktaş Haberleri | Bülent Uslu | #beşiktaş |" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div id="video_text">
+                        <div id="video_text_left">
+                            <div id="video_icon">
+                                <img src="images/bülent.jpg" alt="bülent Uslu">
+                            </div>
+                            <div id="video_space"></div>
+                        </div>
+                        <div id="video_text_right">
+                            <div id="baslık">
+                                <h3>
+                                    TFF'den İcardi'ye derbi kıyağı! | Beşiktaş Haberleri | Bülent Uslu | #beşiktaş |
+ 
+                                </h3>
+                            </div>
+                            <div id="isim">
+                                <p>Bülent Uslu</p>
+                            </div>
+                            <div id="süre">
+                                <p>
+                                    25b görüntüleme   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                                    </svg> 
+                                    20 saat önce</p>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="case">
+                    <div id="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vioO9THl2DM" title="BORSA ALTIN YATIRIMCILARI BU HAFTA DİKKAT!! / FAİZ BİTTİ.." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div id="video_text">
+                        <div id="video_text_left">
+                            <div id="video_icon">
+                                <img src="images/selcoin.jpg" alt="">
+                            </div>
+                            <div id="video_space"></div>
+                        </div>
+                        <div id="video_text_right">
+                            <div id="baslık">
+                                <h3>
+                                    BORSA ALTIN YATIRIMCILARI BU HAFTA DİKKAT!! / FAİZ BİTTİ.. 
+                                </h3>
+                            </div>
+                            <div id="isim">
+                                <p>Selcoin </p>
+                            </div>
+                            <div id="süre">
+                                <p>
+                                    7,1B görüntüleme   
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                                </svg> 1 saat önce</p>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="case">
+                    <div id="video">
+                        <iframe width="100%" height=100%" src="https://www.youtube.com/embed/mVl_0EeORVc" title="Rus İlerleyişi Sürüyor: Avdiivka Düşmek Üzere. Ukrayna, Savaşı Rusya İçlerine Taşımaya Çalışıyor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
+                    <div id="video_text">
+                        <div id="video_text_left">
+                            <div id="video_icon">
+                                <img src="images/sedarlaciner.jpg" alt="">
+                            </div>
+                            <div id="video_space"></div>
+                        </div>
+                        <div id="video_text_right">
+                            <div id="baslık">
+                                <h3>
+                                    Rus İlerleyişi Sürüyor: Avdiivka Düşmek Üzere. Ukrayna, Savaşı Rusya İçlerine Taşımaya Çalışıyor
+                                </h3>
+                            </div>
+                            <div id="isim">
+                                <p>Sedat Laçiner</p>
+                            </div>
+                            <div id="süre">
+                                <p>
+                                    9,9B görüntüleme   
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                                </svg> 8 gün önce</p>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="case">
+                    <div id="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6isfZjOw7tI" title="Türkçe Pop Remix Şarkılar 💘 Türkçe Pop Hareketli Şarkılar Remix | En Çok Dinlenen Pop Müzik 2024 💫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div id="video_text">
+                        <div id="video_text_left">
+                            <div id="video_icon">
+                                <img src="images/unnamed.jpg" alt="">
+                            </div>
+                            <div id="video_space"></div>
+                        </div>
+                        <div id="video_text_right">
+                            <div id="baslık">
+                                <h3>Türkçe Pop Remix Şarkılar 💘 
+                                    Türkçe Pop Hareketli Şarkılar Remix  
+                                </h3>
+                            </div>
+                            <div id="isim">
+                                <p>Remix Şarkılar</p>
+                            </div>
+                            <div id="süre">
+                                <p>1M görüntüleme   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                                </svg> 3 hafta önce</p>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="case">
+                    <div id="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/D2vQMhsAvDY" title="TFF&#39;den İcardi&#39;ye derbi kıyağı! | Beşiktaş Haberleri | Bülent Uslu | #beşiktaş |" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div id="video_text">
+                        <div id="video_text_left">
+                            <div id="video_icon">
+                                <img src="images/bülent.jpg" alt="bülent Uslu">
+                            </div>
+                            <div id="video_space"></div>
+                        </div>
+                        <div id="video_text_right">
+                            <div id="baslık">
+                                <h3>
+                                    TFF'den İcardi'ye derbi kıyağı! | Beşiktaş Haberleri | Bülent Uslu | #beşiktaş |
+ 
+                                </h3>
+                            </div>
+                            <div id="isim">
+                                <p>Bülent Uslu</p>
+                            </div>
+                            <div id="süre">
+                                <p>
+                                    25b görüntüleme   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                                    </svg> 
+                                    20 saat önce</p>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="case">
+                    <div id="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vioO9THl2DM" title="BORSA ALTIN YATIRIMCILARI BU HAFTA DİKKAT!! / FAİZ BİTTİ.." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div id="video_text">
+                        <div id="video_text_left">
+                            <div id="video_icon">
+                                <img src="images/selcoin.jpg" alt="">
+                            </div>
+                            <div id="video_space"></div>
+                        </div>
+                        <div id="video_text_right">
+                            <div id="baslık">
+                                <h3>
+                                    BORSA ALTIN YATIRIMCILARI BU HAFTA DİKKAT!! / FAİZ BİTTİ.. 
+                                </h3>
+                            </div>
+                            <div id="isim">
+                                <p>Selcoin </p>
+                            </div>
+                            <div id="süre">
+                                <p>
+                                    7,1B görüntüleme   
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                                </svg> 1 saat önce</p>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="case">
+                    <div id="video">
+                        <iframe width="100%" height=100%" src="https://www.youtube.com/embed/mVl_0EeORVc" title="Rus İlerleyişi Sürüyor: Avdiivka Düşmek Üzere. Ukrayna, Savaşı Rusya İçlerine Taşımaya Çalışıyor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
+                    <div id="video_text">
+                        <div id="video_text_left">
+                            <div id="video_icon">
+                                <img src="images/sedarlaciner.jpg" alt="">
+                            </div>
+                            <div id="video_space"></div>
+                        </div>
+                        <div id="video_text_right">
+                            <div id="baslık">
+                                <h3>
+                                    Rus İlerleyişi Sürüyor: Avdiivka Düşmek Üzere. Ukrayna, Savaşı Rusya İçlerine Taşımaya Çalışıyor
+                                </h3>
+                            </div>
+                            <div id="isim">
+                                <p>Sedat Laçiner</p>
+                            </div>
+                            <div id="süre">
+                                <p>
+                                    9,9B görüntüleme   
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                                </svg> 8 gün önce</p>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="case">
+                    <div id="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6isfZjOw7tI" title="Türkçe Pop Remix Şarkılar 💘 Türkçe Pop Hareketli Şarkılar Remix | En Çok Dinlenen Pop Müzik 2024 💫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div id="video_text">
+                        <div id="video_text_left">
+                            <div id="video_icon">
+                                <img src="images/unnamed.jpg" alt="">
+                            </div>
+                            <div id="video_space"></div>
+                        </div>
+                        <div id="video_text_right">
+                            <div id="baslık">
+                                <h3>Türkçe Pop Remix Şarkılar 💘 
+                                    Türkçe Pop Hareketli Şarkılar Remix  
+                                </h3>
+                            </div>
+                            <div id="isim">
+                                <p>Remix Şarkılar</p>
+                            </div>
+                            <div id="süre">
+                                <p>1M görüntüleme   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                                </svg> 3 hafta önce</p>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="case">
+                    <div id="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/D2vQMhsAvDY" title="TFF&#39;den İcardi&#39;ye derbi kıyağı! | Beşiktaş Haberleri | Bülent Uslu | #beşiktaş |" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div id="video_text">
+                        <div id="video_text_left">
+                            <div id="video_icon">
+                                <img src="images/bülent.jpg" alt="bülent Uslu">
+                            </div>
+                            <div id="video_space"></div>
+                        </div>
+                        <div id="video_text_right">
+                            <div id="baslık">
+                                <h3>
+                                    TFF'den İcardi'ye derbi kıyağı! | Beşiktaş Haberleri | Bülent Uslu | #beşiktaş |
+ 
+                                </h3>
+                            </div>
+                            <div id="isim">
+                                <p>Bülent Uslu</p>
+                            </div>
+                            <div id="süre">
+                                <p>
+                                    25b görüntüleme   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                                    </svg> 
+                                    20 saat önce</p>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="case">
+                    <div id="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vioO9THl2DM" title="BORSA ALTIN YATIRIMCILARI BU HAFTA DİKKAT!! / FAİZ BİTTİ.." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div id="video_text">
+                        <div id="video_text_left">
+                            <div id="video_icon">
+                                <img src="images/selcoin.jpg" alt="">
+                            </div>
+                            <div id="video_space"></div>
+                        </div>
+                        <div id="video_text_right">
+                            <div id="baslık">
+                                <h3>
+                                    BORSA ALTIN YATIRIMCILARI BU HAFTA DİKKAT!! / FAİZ BİTTİ.. 
+                                </h3>
+                            </div>
+                            <div id="isim">
+                                <p>Selcoin </p>
+                            </div>
+                            <div id="süre">
+                                <p>
+                                    7,1B görüntüleme   
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                                </svg> 1 saat önce</p>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="case">
+                    <div id="video">
+                        <iframe width="100%" height=100%" src="https://www.youtube.com/embed/mVl_0EeORVc" title="Rus İlerleyişi Sürüyor: Avdiivka Düşmek Üzere. Ukrayna, Savaşı Rusya İçlerine Taşımaya Çalışıyor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
+                    <div id="video_text">
+                        <div id="video_text_left">
+                            <div id="video_icon">
+                                <img src="images/sedarlaciner.jpg" alt="">
+                            </div>
+                            <div id="video_space"></div>
+                        </div>
+                        <div id="video_text_right">
+                            <div id="baslık">
+                                <h3>
+                                    Rus İlerleyişi Sürüyor: Avdiivka Düşmek Üzere. Ukrayna, Savaşı Rusya İçlerine Taşımaya Çalışıyor
+                                </h3>
+                            </div>
+                            <div id="isim">
+                                <p>Sedat Laçiner</p>
+                            </div>
+                            <div id="süre">
+                                <p>
+                                    9,9B görüntüleme   
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                                </svg> 8 gün önce</p>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+              
+            </div>
+        </div>
+    </main>
+
+
+
+    
+   
+
+</body>
+</html>

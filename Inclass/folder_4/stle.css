@@ -130,10 +130,33 @@ button {
     width: 40%;
     justify-content: space-between;
 }
-
 button{
     background-color: cadetblue;
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+
+#main11{
+    background-color: turquoise;
+    height: 60vh;
+    display: flex;
+    /* align-items: stretch; */
+    /* align-items: baseline;
+    justify-content: space-around;
+    align-items: center; */
+    flex-wrap: wrap-reverse;
+    /* align-content: space-between; */
+    align-content: center;
+    justify-content: space-between;
+}
+.inner1{
+    background-color: chocolate;
+    border: 1px solid;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
