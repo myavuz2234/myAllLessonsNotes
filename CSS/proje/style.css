@@ -1,0 +1,14 @@
+.resim {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+.resimler + img {
+    width: 500px;
+    height: auto;
+    display: none;
+    position: absolute;
+}
+.resimler:hover + img {
+    display: block;
+}
